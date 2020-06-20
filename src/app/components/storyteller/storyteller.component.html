@@ -1,0 +1,327 @@
+ 
+ <!-- Navigation bar start-->
+ <app-navbar></app-navbar> 
+ <!-- Navigation bar end-->
+
+<!-- Main content start-->
+<!--navbar and event heading start -->
+<div class="main-content">
+<div class="into-container">
+<nav class="navbar navbar-expand-lg navbar-dark  static-top">
+	<div class="container">
+		  <span class="branding">Bwala Wedding Presents...</span>
+	  <div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto">
+		  <li class="nav-item active">
+			<a class="nav-link" ng-href=".main-content">HOME
+				  <span class="sr-only">(current)</span>
+				</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" ng-href=".story">STORY</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" ng-href="#event">EVENT</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" ng-href=".gallery">GALLERY</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" ng-href=".respond">RESPOND</a>
+				</li>
+		</ul>
+	  </div>
+	</div>
+  </nav>
+
+   <!--Name and counter start-->
+   <div class="row">
+			<div class="bride-groom-names mx-auto">
+				<h1 class="animated zoomIn">{{groomName}} &amp; {{brideName}}</h1>
+				<h2 class="center-aligned animated fadeInRight">{{announcement}}</h2>
+				<div class="simply-countdown simply-countdown-one"></div>
+				<p><button class="btn btn-default btn-sm disabled">Save the date</button></p>
+			</div>
+</div>
+<!--Name and counter end-->
+</div>
+<!--navbar and event heading end -->
+<!--Bride and groom introduction start -->
+<div class="row">
+	<div class="announcement-and-intro mx-auto">
+		<h2 class="center-aligned">{{welComeMessage}}</h2>
+		<h3 class="center-aligned">{{dateAndPlace}}</h3>
+		<p class="center-aligned">{{invitationText}}</p>
+	</div>
+	<div class="couple-wrap">
+		<div class="couple-half">
+			<div class="groom">
+				<img src={{brideImagePath}} alt="groom" class="img-responsive">
+			</div>
+			<div class="desc-groom">
+				<h3>{{groomName}}</h3>
+				<p>{{groomDesc}}</p>
+			</div>
+		</div>
+		<p class="heart text-center"><i class="fas fa-heart"></i></p>
+		<div class="couple-half">
+			<div class="bride">
+				<img src={{groomImagePath}} alt="groom" class="img-responsive">
+			</div>
+			<div class="desc-bride">
+				<h3>{{brideName}}</h3>
+				<p>{{brideDesc}}</p>
+			</div>
+		</div>
+	</div>
+</div>
+<!--Bride and groom introduction end -->
+<!--Event schedule start-->
+<div id="event" class="event-bg">
+<div class="row">
+		<div class="col-md-12 col-md-offset-2  event-heading ">
+				<h3 class="center-aligned animated bounceInUp">Our Special Events</h3>
+				<h2 class="center-aligned animated swing">Wedding Events</h2>
+			</div>
+</div>
+<div class="row schedule">
+					<div class="col-md-6 col-sm-6 text-center">
+						<div class="event-wrap">
+							<h3>Wedding Ceremony</h3>
+							<div class="event-col">
+									<i class="fas fa-clock"></i>
+								<span>4:00 PM</span>
+								<span>6:00 PM</span>
+							</div>
+							<div class="event-col">
+									<i class="far fa-calendar"></i>
+								<span>Monday 28</span>
+								<span>November, 2016</span>
+							</div>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+						</div>
+					</div>
+					<div class="col-md-6 col-sm-6 text-center">
+						<div class="event-wrap">
+							<h3>Reception</h3>
+							<div class="event-col">
+									<i class="fas fa-clock"></i>
+								<span>7:00 PM</span>
+								<span>12:00 AM</span>
+							</div>
+							<div class="event-col">
+									<i class="far fa-calendar"></i>
+								<span>Monday 28</span>
+								<span>November, 2016</span>
+							</div>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+						</div>
+					</div>
+	</div>
+</div>
+
+
+<!--Event schedule end-->
+</div>
+
+<div class="story">
+	<div class="row">
+		<div class="col-md-12 col-md-offset-2  event-heading ">
+			<div id="event-couple-story">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 col-md-offset-2 text-center event-heading">
+							<h3 class="grey-h3 center-aligned animated bounceInUp">We Love Each Other</h3>
+							<h2 class="pink-h2 center-aligned animated swing">Our Story</h2>
+							<p class="grey-p center-aligned">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 col-md-offset-0">
+							<ul class="timeline animate-box">
+								<li class="animate-box animated bounceIn">
+									<div class="timeline-badge" style="background-image:url(images/first_meet_1.jpg);"></div>
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<h3 class="timeline-title">First We Meet</h3>
+											<span class="date">December 25, 2015</span>
+										</div>
+										<div class="timeline-body">
+											<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+										</div>
+									</div>
+								</li>
+								<li class="timeline-inverted animate-box animated bounceIn">
+									<div class="timeline-badge" style="background-image:url(images/first_date_1.jpg);"></div>
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<h3 class="timeline-title">First Date</h3>
+											<span class="date">December 28, 2015</span>
+										</div>
+										<div class="timeline-body">
+											<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+										</div>
+									</div>
+								</li>
+								<li class="animate-box animated bounceIn">
+									<div class="timeline-badge" style="background-image:url(images/in_a_relationship_1.jpeg);"></div>
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<h3 class="timeline-title">In A Relationship</h3>
+											<span class="date">January 1, 2016</span>
+										</div>
+										<div class="timeline-body">
+											<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+										</div>
+									</div>
+								</li>
+								</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+</div>
+</div>
+
+<div id="event-gallery" class="event-section-gray">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-md-offset-2 text-center event-heading animate-box">
+				<h3 class="grey-h3 center-aligned animated bounceInUp">Our Memories</h3>
+				<h2 class="pink-h2 center-aligned animated swing">Wedding Gallery</h2>
+				<p class="grey-p center-aligned">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+			</div>
+		</div>
+		<div class="row row-bottom-padded-md">
+			<div class="col-md-12">
+				<ul id="event-gallery-list">
+					
+					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-1.jpg); "> 
+					<a href="images/gallery-1.jpg">
+						<div class="case-studies-summary">
+							<span>14 Photos</span>
+							<h2>Two Glas of Juice</h2>
+						</div>
+					</a>
+				</li>
+				<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-2.jpg); ">
+					<a href="#" class="color-2">
+						<div class="case-studies-summary">
+							<span>30 Photos</span>
+							<h2>Timer starts now!</h2>
+						</div>
+					</a>
+				</li>
+
+
+				<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-3.jpg); ">
+					<a href="#" class="color-3">
+						<div class="case-studies-summary">
+							<span>90 Photos</span>
+							<h2>Beautiful sunset</h2>
+						</div>
+					</a>
+				</li>
+				<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-4.jpg); ">
+					<a href="#" class="color-4">
+						<div class="case-studies-summary">
+							<span>12 Photos</span>
+							<h2>Company's Conference Room</h2>
+						</div>
+					</a>
+				</li>
+
+					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-5.jpg); ">
+						<a href="#" class="color-3">
+							<div class="case-studies-summary">
+								<span>50 Photos</span>
+								<h2>Useful baskets</h2>
+							</div>
+						</a>
+					</li>
+					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-6.jpg); ">
+						<a href="#" class="color-4">
+							<div class="case-studies-summary">
+								<span>45 Photos</span>
+								<h2>Skater man in the road</h2>
+							</div>
+						</a>
+					</li>
+
+					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-7.jpg); ">
+						<a href="#" class="color-4">
+							<div class="case-studies-summary">
+								<span>35 Photos</span>
+								<h2>Two Glas of Juice</h2>
+							</div>
+						</a>
+					</li>
+
+					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-8.jpg); "> 
+						<a href="#" class="color-5">
+							<div class="case-studies-summary">
+								<span>90 Photos</span>
+								<h2>Timer starts now!</h2>
+							</div>
+						</a>
+					</li>
+					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/gallery-9.jpg); ">
+						<a href="#" class="color-6">
+							<div class="case-studies-summary">
+								<span>56 Photos</span>
+								<h2>Beautiful sunset</h2>
+							</div>
+						</a>
+					</li>
+				</ul>		
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/img_bg_4.jpg);">
+	<div class="overlay"></div>
+	<div class="container">
+		<div class="row animate-box">
+			<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+				<h2>Are You Attending?</h2>
+				<p>Please Fill-up the form to notify you that you're attending. Thanks.</p>
+			</div>
+		</div>
+		<div class="row animate-box">
+			<div class="col-md-10 col-md-offset-1">
+				<form class="form-inline">
+					<div class="col-md-4 col-sm-4">
+						<div class="form-group">
+							<label for="name" class="sr-only">Name</label>
+							<input type="name" class="form-control" id="name" placeholder="Name">
+						</div>
+					</div>
+					<div class="col-md-8 col-sm-8">
+						<div class="form-group">
+							<label for="message" class="sr-only">Message for the couple</label>
+							<input type="message" class="form-control" id="message" placeholder="Message for the couple">
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-2">"</div>
+					<div class="col-md-4 col-sm-4">
+						<button type="submit" class="btn btn-info btn-block">I am Attending</button>
+						</div>
+						<div class="col-md-4 col-sm-4">
+						<button type="submit" class="btn btn-danger btn-block">Sorry I can't</button>
+					</div>
+					<div class="col-md-2 col-sm-2">"</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="col-md-4 col-sm-4 choose-design-button">
+	<a href="../eCard/allInfo.html"><button type="submit" class="btn btn-info btn-block">Select this Design & Proceed</button></a>
+</div>
+<!-- Main content end-->
+
+<!-- Footer Start -->
+<app-footer></app-footer> 
+<!-- Footer End -->

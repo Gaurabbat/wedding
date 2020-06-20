@@ -1,0 +1,24 @@
+/*Navbar CSS- start*/
+.view {
+    //background: url("https://mdbootstrap.com/img/Photos/Others/img (50).jpg")no-repeat center center;
+    background-size: cover;
+}
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+/*Navbar CSS- end*/
+
+.navbar-brand{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+  }
+  
+  .currentDateTime{
+    color: white;
+    font-size: small;
+    padding-top:1 px;
+  }
