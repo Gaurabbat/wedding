@@ -1,1 +1,1 @@
-custome wedding card builder
+custom wedding card builder
